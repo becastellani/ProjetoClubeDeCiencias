@@ -66,7 +66,7 @@
 }
 
 /* responsavel pelas imagens acionar quando estiver com imagens oficiais */
-/* .carousel-item {
+ .carousel-item {
     background-image: url('../../imagens/DIA-DA-CIENCIA-E-DA-TECNOLOGIA.png');
 
     
@@ -79,4 +79,4 @@
   
   .carousel-item:nth-child(3) {
     background-image: url('../../imagens/jovem-aprendendo-sobre-ciencia-com-cientista-feminina.jpg');
-  } */
+  } 
