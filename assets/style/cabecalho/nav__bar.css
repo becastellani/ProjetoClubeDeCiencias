@@ -20,12 +20,11 @@
 
 .nav__bar__lista{
 
-    width: 40%;
+    width: 30%;
     display: inherit; /* pega a propriedade display do nav__bar */
     justify-content: space-around;
-
+    
 }
-
 .nav__bar__lista__iten > a{
     position: relative;
     
