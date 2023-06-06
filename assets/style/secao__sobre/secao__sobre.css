@@ -1,6 +1,24 @@
 .secao__sobre{
-    overflow: hidden;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
-h1{
-    overflow: hidden;
+
+.secao__sobre__conteudo{
+
+    width: 50%;
+}
+
+
+.secao__sobre__imagen{
+    width: 50%;
+}
+
+.secao__sobre__imagen img{
+
+    width: 80%;
+   
 }
