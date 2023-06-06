@@ -1,24 +1,44 @@
+.background-gradiente{
+    
+    background: linear-gradient(-360deg, #253646 0%, #185EA9 100% );
+}
 .secao__sobre{
     width: 100vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 16px;
 
 }
 
 .secao__sobre__conteudo{
 
     width: 50%;
+    padding-left: 40px;
+    text-align: justify;
+    color: white;
 }
 
 
-.secao__sobre__imagen{
+.secao__sobre__imagem{
     width: 50%;
+    justify-content: center;
+    text-align: center;
 }
 
-.secao__sobre__imagen img{
+.secao__sobre__imagem img{
 
     width: 80%;
    
+}
+
+.secao__sobre__conteudo h1{
+    overflow: hidden;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+.secao__sobre__conteudo h4{
+    overflow: hidden;
+    font-size: 12px;
 }

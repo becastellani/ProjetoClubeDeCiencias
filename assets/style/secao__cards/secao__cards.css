@@ -17,10 +17,12 @@
 
 .secao__card__titulo > h2 {
   text-align: center;
-  font-family: var(--font__lato);
+  font-family: 'Poppins';
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 60px;
+  padding-top: 50px;
+  color: white;
+
 }
 
 .secao__card__conteudo__card {
@@ -31,6 +33,7 @@
   position: relative;
   overflow: hidden;
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.46);
+  background-color: white;
 }
 
 .secao__card__conteudo__card img {
@@ -38,12 +41,12 @@
   transition: transform 0.3s ease;
 }
 
-.secao__card__conteudo__card:hover main {
+.secao__card__conteudo__card:hover div {
   opacity: 1;
   transform: translateY(0);
 }
 
-.secao__card__conteudo__card main {
+.secao__card__conteudo__card div {
   position: absolute;
   top: 0;
   left: 0;

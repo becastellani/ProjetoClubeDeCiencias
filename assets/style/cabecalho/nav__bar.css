@@ -23,7 +23,6 @@
     width: 40%;
     display: inherit; /* pega a propriedade display do nav__bar */
     justify-content: space-around;
-
 }
 
 .nav__bar__lista__iten > a{
@@ -46,7 +45,7 @@
     content: "";
     width: 0%;
     height: 2px;
-    background-color: #011110e1;  
+    background-color: #D31D4E;  
     transition: 0.4s ease-in-out;
 }
 
