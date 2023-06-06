@@ -1,7 +1,9 @@
-/* .secao__cards {
- 
-} */
-
+.secao__cards {
+ margin-top: 40px;
+}
+.background-gradiente{
+  background: linear-gradient(-360deg, #253646 0%, #185EA9 100% );
+}
 .secao__card__conteudo{
   width: 100vw;
   display: grid;
@@ -20,8 +22,9 @@
   font-family: 'Poppins';
   font-weight: 600;
   text-transform: uppercase;
-  padding-top: 50px;
+  margin-top: 50px;
   color: white;
+  overflow: hidden;
 
 }
 
@@ -83,3 +86,4 @@
     grid-template-columns: 1fr;
   }
 }
+
