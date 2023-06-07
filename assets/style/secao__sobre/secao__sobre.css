@@ -39,3 +39,33 @@
     overflow: hidden;
     font-size: 12px;
 }
+
+
+.baner__sobre__pseudo__botao{
+    text-align: center;
+}
+.baner__sobre__pseudo__botao > p{
+    display: inline-block;
+}
+
+.baner__sobre__pseudo__botao > p >a{
+    display: inline-block;
+    margin: 30px 30px 0 0;
+    text-align: center;
+    width: 150px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid #D31D4E;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    text-decoration: none;
+    
+}
+
+.baner__sobre__pseudo__botao > p > a:hover{
+    color: white;
+    background-color: #D31D4E;
+}

@@ -1,0 +1,20 @@
+h1,h2,h3,h4{
+    overflow: hidden;
+}
+
+footer{
+background-color: #253646;
+color: white;
+}
+
+.listas > h4{
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 600;
+
+}
+.listas ul > li > a{
+    font-family: 'Poppins';
+    color: var(--color__background);
+    text-decoration: none;
+}
