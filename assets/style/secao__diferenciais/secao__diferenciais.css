@@ -1,0 +1,48 @@
+.secao__diferenciais__titulo > h2 {
+    
+    font-family: var(--font__popins);
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    
+  }
+
+.secao__diferenciais__conteudo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+    padding: 2.5em;
+}
+
+.secao__diferenciais__cards {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.secao__diferenciais__cards__icone {
+    font-size: 2em;
+    align-self: flex-start;
+    padding-right: 0.5em;
+}
+
+.secao__diferenciais__texto {
+    width: 80%;
+    text-align: start;
+}
+
+.secao__diferenciais__cards__titulo {
+    font-weight: bold;
+    font-size: 1.125em;
+    margin-bottom: 0.625em;
+}
+
+.secao__diferenciais__cards__descricao {
+    font-size: 0.875em;
+    color: #666;
+}
