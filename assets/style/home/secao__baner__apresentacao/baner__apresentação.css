@@ -1,0 +1,96 @@
+
+.baner__apresentação__geral{
+    padding-left: 80px;
+    font-family: var(--font__lato);
+    width: 100%;
+    background-color: var(--color__background);
+
+}
+
+.baner__apresentação__conteudo{
+    height: 84vh ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    color: white;
+}
+
+
+.baner__apresentação__conteudo > h2{
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+}
+
+.baner__apresentação__conteudo > h2 >span{
+    
+    font-family: var(--font__lato);
+    display: block;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.baner__apresentação__descrição{
+    max-width: 500px;
+}
+
+.baner__apresentação__pseudo__botao > p{
+    display: inline-block;
+}
+
+.baner__apresentação__pseudo__botao > p >a{
+    display: inline-block;
+    margin: 30px 30px 0 0;
+    text-align: center;
+
+    width: 150px;
+
+    padding: 10px 0;
+
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    
+    border: 1px solid #D31D4E;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: .5s ease-in-out;
+
+    text-decoration: none;
+    
+}
+
+.baner__apresentação__pseudo__botao > p > a:hover{
+    color: white;
+    background-color: #D31D4E;
+}
+
+/* responsavel pelas imagens acionar quando estiver com imagens oficiais */
+ .carousel-item {
+    background-image: url('../../imagens/solidcolor.png');
+
+    
+    
+  }
+
+  .carousel-item:nth-child(2) {
+    background-image: url('../../imagens/solidcolor.png');
+  }
+  
+  .carousel-item:nth-child(3) {
+    background-image: url('../../imagens/solidcolor.png');
+    
+  } 
+
+  /* .video-carousel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+  }
+  */
