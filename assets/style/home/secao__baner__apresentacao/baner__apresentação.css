@@ -6,6 +6,9 @@
     background-color: var(--color__background);
 
 }
+.gradiente-main{
+    background: linear-gradient(-45deg, #253646 20%, #185EA9 80% );
+}
 
 .baner__apresentação__conteudo{
     height: 84vh ;

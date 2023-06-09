@@ -1,12 +1,11 @@
 .secao__diferenciais__titulo > h2 {
     
     font-family: var(--font__popins);
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
-    color: #333;
+    color: white;
     text-align: center;
     margin-top: 40px;
-    text-transform: uppercase;
     
   }
 
@@ -15,6 +14,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5em;
     padding: 2.5em;
+    padding-bottom: 60px;
 }
 
 .secao__diferenciais__cards {
@@ -29,6 +29,7 @@
     font-size: 2em;
     align-self: flex-start;
     padding-right: 0.5em;
+    color: black;
 }
 
 .secao__diferenciais__texto {
@@ -40,9 +41,10 @@
     font-weight: bold;
     font-size: 1.125em;
     margin-bottom: 0.625em;
+    color: white;
 }
 
 .secao__diferenciais__cards__descricao {
     font-size: 0.875em;
-    color: #666;
+    color: white;
 }
