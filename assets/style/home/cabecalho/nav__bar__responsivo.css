@@ -1,5 +1,11 @@
 @media (max-width: 900px) {
 
+    .nav__bar{
+
+        padding: 0;
+    }
+
+
     .nav__bar__lista{
 
         background-color: var(--color__background);
@@ -9,12 +15,13 @@
        
         position: absolute;
         top: 90px;
-        right: 0px;
+        left: 0px;
 
-        text-align: center;
+        padding: 0;
 
         flex-direction: column;
-        align-content:space-around;
+        align-content:center;
+        align-items: center;
 
         height: 0;
         overflow-y: hidden;
@@ -24,6 +31,11 @@
 
         overflow: hidden;
         
+    }
+
+    .nav__bar__lista__iten > a{
+
+        margin-left: 0;
     }
    
     

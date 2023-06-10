@@ -7,7 +7,7 @@
 
     
     width: 100%;
-    /* definir um padding para menu caso a logo seja alterada  */
+    padding: 0 60px 0 30px ;/* definir um padding para menu caso a logo seja alterada  */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,15 +19,13 @@
 }
 
 .nav__bar__lista{
-
-    width: 40%;
     display: inherit; /* pega a propriedade display do nav__bar */
     justify-content: space-around;
 }
 
 .nav__bar__lista__iten > a{
     position: relative;
-    
+    margin-left: 50px;
     font-family: var(--font__popins);
     font-weight: 600;
     text-transform: uppercase;

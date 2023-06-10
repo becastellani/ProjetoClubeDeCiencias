@@ -1,0 +1,498 @@
+  <main >
+
+        <!-- seção apresentação -->
+        <section id="carouselExample" class="carousel slide carousel w-100" data-bs-ride="carousel">
+            <!-- <video class="video-carousel"autoplay loop muted>
+                <source src="./assets/videos/videoplayback.mp4" type="video/mp4">
+              </video> -->
+                <div class="carousel-inner w-100 d-flex  align-items-center">
+
+                    <div class="carousel-item active baner__apresentação__geral baner__apresentação--inicial">
+                        <div class="baner__apresentação__conteudo">
+                                <h2>
+                                    Venha explorar <span>CONOSCO</span>
+                                </h2>
+
+                                <p class="baner__apresentação__descrição">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dolores iusto nobis corrupti atque corporis consequuntur accusamus earum
+                                </p>
+
+                                <div class="baner__apresentação__pseudo__botao">
+                                    <p><a href="#">Saiba mais</a></p>
+                                    <p><a href="#">Contato</a></p>
+                                </div>
+                                
+                        </div>
+
+                    </div>
+                
+                    <div class="carousel-item baner__apresentação__geral baner__apresentação--laboratorio">
+
+                        <div class="baner__apresentação__conteudo">
+                                
+                                <h2>
+                                    Ciência Incrível  <span>em Ação!</span>
+                                </h2>
+
+                                <p class="baner__apresentação__descrição">
+                                    Desvende os segredos do conhecimento nos nossos laboratórios de ponta, onde a ciência ganha vida e a curiosidade se transforma em descobertas extraordinárias.
+                                </p>
+
+                                <div class="baner__apresentação__pseudo__botao">
+                                    <p><a href="#">Saiba mais</a></p>
+                                    <p><a href="#">Contato</a></p>
+                                </div>
+                            </div>
+                    </div>
+                
+                    <div class="carousel-item baner__apresentação__geral baner__apresentação--conquistas">
+                        <div class="baner__apresentação__conteudo">
+
+                                <h2>
+                                    Descubra nossas <span>Conquistas</span>
+                                </h2>
+
+                                <p class="baner__apresentação__descrição">
+                                    Inspire seu filho com nossas conquistas científicas! Explore um mundo de descobertas que estimulam a curiosidade e impulsionam o futuro. Junte-se a nós nessa jornada emocionante!
+                                </p>
+
+                                <div class="baner__apresentação__pseudo__botao">
+                                    <p><a href="#">Saiba mais</a></p>
+                                    <p><a href="#">Contato</a></p>
+                                </div>
+            
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExample" data-bs-slide-to="2"></li>
+                </ol>
+        </section>
+
+        <!-- seeção cards -->
+      
+        <section class="secao__cards" id="sobre">
+
+            <header class="secao__card__titulo">
+
+                <h2>
+                    Descubra um mundo novo
+                </h2>
+
+            </header>
+
+            <div class="secao__card__conteudo">
+
+                <div class="secao__card__conteudo__card">
+
+                    <header>
+                       <img src="assets/imagens/astronaut.png" alt="">
+                    </header>
+
+                    <div>
+                        <h4>Exploração Científica</h4>
+
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum harum nesciunt 
+                            excepturi voluptatem dolorem voluptas numquam velit! Nobis impedit repudiandae 
+                            saepe magni reiciendis dolore, labore a excepturi quibusdam. Voluptates, soluta!
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="secao__card__conteudo__card">
+
+                    <header>
+                       <img src="assets/imagens/astronaut.png" alt="">
+                    </header>
+
+                    <div>
+                        <h4>Tecnologia e Inovação</h4>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum harum nesciunt 
+                            excepturi voluptatem dolorem voluptas numquam velit! Nobis impedit repudiandae 
+                            saepe magni reiciendis dolore, labore a excepturi quibusdam. Voluptates, soluta!
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="secao__card__conteudo__card">
+
+                    <header>
+                       <img src="assets/imagens/astronaut.png" alt="">
+                    </header>
+
+                    <div>
+                        <h4>Metodologia Diferenciada</h4>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum harum nesciunt 
+                            excepturi voluptatem dolorem voluptas numquam velit! Nobis impedit repudiandae 
+                            saepe magni reiciendis dolore, labore a excepturi quibusdam. Voluptates, soluta!
+                        </p>
+                    </div>
+
+                </div>
+               
+                <div class="secao__card__conteudo__card">
+
+                    <header>
+                       <img src="assets/imagens/astronaut.png" alt="">
+                    </header>
+
+                    <div>
+                        <h4>Metodologia Diferenciada</h4>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum harum nesciunt 
+                            excepturi voluptatem dolorem voluptas numquam velit! Nobis impedit repudiandae 
+                            saepe magni reiciendis dolore, labore a excepturi quibusdam. Voluptates, soluta!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- seção sobre -->
+        <section class="secao__sobre">
+                <div class="secao__sobre__conteudo" >
+                    
+                  <div class="secao__sobre__conteudo__apresentacao">
+
+                    <h4 class="secao__sobre__conteudo__sub__titulo" >UMA HISTÓRIA DE SUCESSO</h4>
+                    <h1 class="secao__sobre__conteudo__titulo">Conheça nossa Historia</h1>
+           
+                    <p class="secao__sobre__conteudo__texto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Iste quod eum iure distinctio tempora itaque accusamus odio nesciunt quasi, 
+                        omnis, laudantium veniam repellat at saepe! Distinctio odit accusantium laboriosam c
+                        onsectetur.
+                    </p>
+
+                  </div>
+                
+                       <div class="secao__sobre__conteudo__citacao">
+
+                            <p>
+                                "Educação não transforma o mundo. Educação muda as pessoas. Pessoas transformam o mundo." 
+                                <span>Paulo Freire</span>
+                            </p>
+                           
+
+                       </div>
+                
+                    
+                    <div class="secao__sobre__conteudo__pseudo__botao baner__apresentação__pseudo__botao">
+                        <p><a href="#">Saiba mais</a></p>
+                    </div>
+                </div>
+
+                <div class="secao__sobre__imagem">
+
+                    
+                        <img src="assets/imagens/medico-cientista-conduzindo-experimento-clinico-usando-micropipeta.jpg" alt="imagem meramente ilustrativa">
+             
+
+                </div>
+          
+
+        </section>
+    
+        <!-- seção diferenciais -->
+        <section class="secao__diferenciais">
+
+            <header class="secao__diferenciais__titulo">
+
+                <h2>Nossos Diferenciais</h2>
+
+            </header>
+           
+           <main class="secao__diferenciais__conteudo">
+
+            <div class="secao__diferenciais__cards">
+                
+                <i class="fa fa-graduation-cap secao__diferenciais__cards__icone"></i>
+
+                <div class="secao__diferenciais__texto" >
+                    <h4 class="secao__diferenciais__cards__titulo">Aprenda de forma divertida</h4>
+                    <p class="secao__diferenciais__cards__descricao">
+                        Unimos conhecimento científico e diversão para tornar o aprendizado mais atrativo e estimulante para os participantes.
+                    </p>
+                </div>
+
+            </div>
+        
+            <div class="secao__diferenciais__cards">
+                
+                <i class="fa fa-flask secao__diferenciais__cards__icone"></i>
+                
+                <div class="secao__diferenciais__texto" >
+                    <h4 class="secao__diferenciais__cards__titulo">Exploração multidisciplinar</h4>
+                    <p class="secao__diferenciais__cards__descricao">
+                        Abordamos áreas como Física, Química, Matemática, Biologia, Tecnologia e Robótica, proporcionando uma experiência ampla e enriquecedora.
+                    </p>
+                </div>
+
+            </div>
+        
+            <div class="secao__diferenciais__cards">
+                
+                <i class="fa fa-flask secao__diferenciais__cards__icone"></i>
+                
+                <div class="secao__diferenciais__texto" >
+                    <h4 class="secao__diferenciais__cards__titulo">Desperte o amor pela ciência</h4>
+                    <p class="secao__diferenciais__cards__descricao">
+                        Valorizamos a curiosidade e buscamos despertar o amor pela ciência nos participantes desde cedo, por meio de atividades práticas e desafiadoras.
+                    </p>
+                </div>
+
+            </div>
+        
+            <div class="secao__diferenciais__cards">
+               
+                <i class="fa fa-cogs secao__diferenciais__cards__icone"></i>
+                
+                <div class="secao__diferenciais__texto" >
+                    <h4 class="secao__diferenciais__cards__titulo">Aprendizado na prática</h4>
+                    <p class="secao__diferenciais__cards__descricao">
+                        Proporcionamos experiências práticas e aplicadas, permitindo que os participantes vivenciem na prática os conceitos estudados, tornando o aprendizado mais significativo.
+                    </p>
+                </div>
+
+            </div>
+        
+            <div class="secao__diferenciais__cards">
+                
+             
+                    <i class="fa fa-users secao__diferenciais__cards__icone"></i>
+               
+               
+                <div class="secao__diferenciais__texto" >
+                    <h4 class="secao__diferenciais__cards__titulo">Desenvolvimento de habilidades</h4>
+                    <p class="secao__diferenciais__cards__descricao">
+                        Além do conhecimento científico, estimulamos o desenvolvimento de habilidades transversais, como comunicação, trabalho em equipe, análise crítica e raciocínio lógico.
+                    </p>
+                </div>
+
+            </div>
+        
+            <div class="secao__diferenciais__cards">
+                
+                <i class="fa fa-bus secao__diferenciais__cards__icone"></i>
+                
+                <div class="secao__diferenciais__texto" >
+                    <h4 class="secao__diferenciais__cards__titulo">Transporte gratuito</h4>
+                    <p class="secao__diferenciais__cards__descricao">
+                        Disponibilizamos transporte gratuito com um ponto de encontro em Toledo, facilitando o deslocamento dos participantes para o Biopark.
+                    </p>
+                </div>
+
+            </div>
+           </main>
+        </section>
+        
+
+        <!-- seção formulario -->
+        <section class="secao__formulario">
+                <div class="inscricao">
+                    <div class="contato-container">
+                        <h1>Descubra um Novo Mundo</h1>
+                        <div class="contato">
+                          <div class="contato-texto">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum arcu tellus, ut lobortis purus malesuada nec. Sed at gravida risus. Suspendisse congue leo sed orci ultrices ullamcorper. Mauris rhoncus rhoncus interdum. Mauris tincidunt arcu lacinia sollicitudin iaculis. Ut posuere erat rhoncus neque gravida posuere. Donec vehicula mi eros, non consequat libero ultrices ut. In et mattis nisi. Fusce eget congue lectus. Morbi pretium finibus malesuada. Aliquam dui est, volutpat tempus hendrerit quis, fermentum vel dui.</p>
+                          </div>
+                          <form action="" class="contato-form">
+                            <div class="inputGroup">
+                            <input type="text" id="name" name="name" required="" autocomplete="off">
+                            <label for="name">Nome</label>
+                            </div>
+                            
+                            <div class="inputGroup">
+                            <input type="email" id="email" name="email" required="" autocomplete="off">
+                            <label for="email">Email</label>
+                           </div>
+          
+                           <div class="inputGroup">
+                            <input type="text" id="telefone" name="telefone" required="" autocomplete="off">
+                            <label for="text">Telefone</label>
+                           </div>
+          
+                           <div class="inputGroup">
+                            <select class="form-control" name="categoriaIdade" required="" id="idade">
+                                <option value="" disabled="" selected="" hidden="">
+                                  Qual a idade do aluno?
+                                </option>
+                                <option value="0">Pré-Clube - 04 a 08 anos</option>
+                                <option value="1">Clube de Ciências - 09 a 17 anos</option>
+                             </select>
+                           </div>
+
+                           <div class="inputGroup">
+                            <select id="inputComo" class="form-control" required="">
+                                <option value="" disabled="" selected="" hidden="">
+                                  Como chegou até nós?
+                                </option>
+                                <option value="Amigos/Parentes">Amigos/Parentes</option>
+                                <option value="E-mail">E-mail</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Google">Google</option>
+                                <option value="Indicação">Indicação</option>
+                                <option value="Instagram">Instagram</option>
+                                <option value="Jornal">Jornal</option>
+                                <option value="Outdoor">Outdoor</option>
+                                <option value="Panfletagem">Panfletagem</option>
+                                <option value="Rádio">Rádio</option>
+                                <option value="Revista">Revista</option>
+                                <option value="Site Institucional">Site Institucional</option>
+                                <option value="Sites especializados em Educação">
+                                  Sites especializados em Educação
+                                </option>
+                                <option value="Televisão">Televisão</option>
+                                <option value="Visita - Empresa/Escola">
+                                  Visita - Empresa/Escola
+                                </option>
+                              </select>
+                           </div>
+
+                            <!-- Add more form fields here -->
+                            <div class="input-submit">
+                            <input type="submit">
+                            </div>
+          
+                          </form>
+                      </div>
+          
+                      </div>
+                    </div>
+        </section>
+
+    </main>
+    <footer class="-secao_footer">
+        <div class="container py-5 px-0">
+        <div class="row">
+        <div class="col-12 col-sm-6 col-md-3 footer-logo">
+            <img src="" width="214" height="71" decoding="async" data-nimg="1" class="footer-logo-img" loading="lazy" style="color: transparent;">
+            <div style="height: 2rem;">
+            </div>
+            <ul class="listas redes-sociais">
+                <li>
+                    <a id="face" href="https://www.facebook.com/bioparkparquecientificoetecnologico" target="https://www.facebook.com/bioparkparquecientificoetecnologico" >
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a id="insta" href="http://instagram.com/biopark_" target="http://instagram.com/biopark_" >
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a id="youtube" href="https://www.youtube.com/channel/UC-5W0umLlH-HoxN4RGTggBw" target="https://www.youtube.com/channel/UC-5W0umLlH-HoxN4RGTggBw" >
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a id="linkedin" href="https://www.linkedin.com/company/parquebiopark/" target="https://www.linkedin.com/company/parquebiopark/" >
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="listas col-12 col-sm-6 col-md-3">
+            <h4>Sobre nós</h4>
+            <ul>
+                <li>
+                    <a href="/sobre/#quem-somos">Quem somos</a>
+                </li>
+                <li>
+                    <a href="/sobre/#missao-visao-valores">Missão, Visão, Valores</a>
+                </li>
+                <li>
+                    <a href="/sobre/#objetivo">Objetivos</a>
+                </li>
+                <li>
+                    <a href="/sustentabilidade/">Sustentabilidade</a>
+                </li>
+                <li>
+                    <a target="https://platform.senior.com.br/hcmrs/hcm/curriculo/?tenant=biopark&amp;tenantdomain=biopark.com.br#!/login/signup" href="https://platform.senior.com.br/hcmrs/hcm/curriculo/?tenant=biopark&amp;tenantdomain=biopark.com.br#!/login/signup">Trabalhe conosco</a>
+                </li>
+                <li>
+                <a target="https://docs.google.com/forms/d/e/1FAIpQLScD-BuZxgFQVPcXCMEML5Sqos3Oho-WO6ZYeWQEMLdTSEddoA/viewform" href="https://docs.google.com/forms/d/e/1FAIpQLScD-BuZxgFQVPcXCMEML5Sqos3Oho-WO6ZYeWQEMLdTSEddoA/viewform">Banco de ideias</a>
+                 </li>
+                </ul>
+            </div>
+            <div class="listas col-12 col-sm-6 col-md-3">
+                <h4>Notícias</h4>
+                <ul>
+                    <li>
+                        <a href="/noticias/">Lista de notícias</a>
+                    </li>
+                    <li>
+                        <a target="https://flickr.com/photos/165808463@N06" href="https://flickr.com/photos/165808463@N06">Galeria de fotos</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC-5W0umLlH-HoxN4RGTggBw">Galeria de vídeos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="listas col-12 col-sm-6 col-md-3">
+                <h4>O Biopark</h4>
+                <ul>
+                    <li>
+                        <a target="https://biopark.com.br/empresas/" href="https://biopark.com.br/empresas/">Empresas</a>
+                    </li>
+                    <li>
+                        <a target="https://biopark.com.br/invista/" href="https://biopark.com.br/invista/">Invista</a>
+                    </li>
+                    <li>
+                        <a target="https://biopark.com.br/empresas/" href="https://biopark.com.br/empresas/">Incubadora</a>
+                    </li>
+                    <li>
+                        <a target="https://bpkedu.com.br/" href="https://bpkedu.com.br/">Biopark Educação</a>
+                    </li>
+                    <li>
+                        <a href="https://forms.office.com/r/is28y6Mb9N">Avalie as empresas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            <div style="height: 2rem;">
+        </div>
+        <div class="row">
+            <div class="listas col-12 col-sm-6 col-md-3">
+                <h4>Informações</h4>
+                <p>+55 45 2036 3601 <br>Rodovia estadual, PR-182 - conexão com BR-163. Toledo | Paraná | Brasil</p>
+            </div>
+            <div class="listas col-12 col-sm-6 col-md-3">
+                <h4>Pesquisa</h4>
+                <ul>
+                    <li>
+                        <a target="https://biopark.com.br/queijosfinos/" href="https://biopark.com.br/queijosfinos/">Queijos Finos</a>
+                    </li>
+                    <li>
+                        <a href="/lbb/">Laboratório de Biomateriais e Bioengenharia</a>
+                    </li>
+                    <li>
+                        <a href="/laboratorios/">Laboratórios</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="listas col-12 col-sm-6 col-md-6">
+                <h4>Um parque credenciado</h4>
+                <div class="credenciado d-flex justify-content-around py-3">
+                    <img src="" width="150" height="73" >
+                    <img  src="" width="100" height="73" >
+                    <img src="/Anprotecwht.svg" width="175" height="73" decoding="async" data-nimg="1" loading="lazy" style="color: transparent;">
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <p class="copyright text-center mb-0 py-3">© Copyright 2023 / Biopark - Parque Científico e Tecnológico de Biociências</p></footer>
+    </footer>
