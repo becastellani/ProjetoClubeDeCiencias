@@ -61,3 +61,40 @@
 
     
 }
+@media (max-height: 500px) {
+    .baner__apresentação__conteudo {
+      height: auto;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 20px;
+    }
+  
+    .baner__apresentação__conteudo > h2 {
+      font-size: 32px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  
+    .baner__apresentação__conteudo > h2 > span {
+      font-size: 36px;
+    }
+  
+    .baner__apresentação__descrição {
+      max-width: 400px;
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+  
+    .baner__apresentação__pseudo__botao {
+      text-align: left;
+    }
+  
+    .baner__apresentação__pseudo__botao > p > a {
+      margin: 10px;
+      width: 100px;
+      padding: 8px;
+      font-size: 14px;
+      border-radius: 8px;
+    }
+  }
+  
