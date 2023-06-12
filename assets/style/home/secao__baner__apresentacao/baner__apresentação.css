@@ -3,7 +3,6 @@
     padding-left: 80px;
     font-family: var(--font__lato);
     width: 100%;
-    background-color: var(--color__background);
 
 }
 .gradiente-main{
@@ -16,6 +15,7 @@
     flex-direction: column ;
     justify-content: center ;
     color: white;
+    
 }
 
 
@@ -72,7 +72,7 @@
 }
 
 /* responsavel pelas imagens acionar quando estiver com imagens oficiais */
- .carousel-item {
+ /* .carousel-item {
     background-image: url('../../imagens/solidcolor.png');
 
     
@@ -86,14 +86,16 @@
   .carousel-item:nth-child(3) {
     background-image: url('../../imagens/solidcolor.png');
     
-  } 
+  }  */
 
-  /* .video-carousel{
+  .video-carousel{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
-
+    width: 100vw;
+    filter: blur(3px);
   }
-  */
+
+  #carouselExample {
+    overflow: hidden;
+}
