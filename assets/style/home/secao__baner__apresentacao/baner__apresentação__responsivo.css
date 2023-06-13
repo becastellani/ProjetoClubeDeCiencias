@@ -11,6 +11,18 @@
         padding: 30px;
     }
 
+    .video-carousel2{
+      display: none;
+    }
+    .video-carousel1{
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      zoom: 100%;
+    }
+
 
     
 }
