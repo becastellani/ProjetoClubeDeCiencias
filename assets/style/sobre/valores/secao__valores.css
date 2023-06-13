@@ -1,0 +1,31 @@
+.secao__valores{
+
+    color: white;
+
+    width: 100vw;
+    height: 80vh;
+    
+    background-image: url("../../../imagens/06-lacem.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+    padding: 60px;
+    
+}
+
+.secao__valores__conteudo > h2{
+
+    text-transform: uppercase;
+    font-family: var(--font__lato);
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.secao__valores__conteudo > p{
+
+    max-width: 600px;
+}
+
