@@ -53,6 +53,10 @@
     margin-bottom: 0.625em;
     color: white;
   }
+
+  .secao__atividades__texto h4{
+    overflow: hidden;
+  }
   
   .secao__atividades__cards__descricao {
     font-size: 0.875em;
