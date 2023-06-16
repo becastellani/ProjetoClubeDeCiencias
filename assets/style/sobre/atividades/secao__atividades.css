@@ -1,22 +1,33 @@
-.secao__diferenciais__titulo > h2 {
+.secao__atividades{
+    background-color: red;
+    height: 100vh;
+    position: relative;
+    top: 190px;
+}
+
+.secao__atividades__titulo > h2 {
     font-family: var(--font__popins);
-    font-size: 1.875em; /* Aumentar o tamanho da fonte do título */
+    font-size: 1.875em;
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 2.5em; /* Aumentar a margem superior */
-    overflow: hidden;
+    margin-top: 2.5em;
+   
   }
   
-  .secao__diferenciais__conteudo {
+  .secao__atividades__conteudo {
+
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5em;
     padding: 2.5em;
-    padding-bottom: 3.75em; /* Aumentar o padding inferior */
+    padding-bottom: 3.75em;
+
+   
   }
   
-  .secao__diferenciais__cards {
+  .secao__atividades__cards {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -24,30 +35,27 @@
     justify-content: center;
   }
   
-  .secao__diferenciais__cards__icone {
+  .secao__atividades__cards__icone {
     font-size: 2em;
     align-self: flex-start;
     padding-right: 0.5em;
     color: black;
   }
   
-  .secao__diferenciais__texto {
+  .secao__atividades__texto {
     width: 80%;
     text-align: start;
   }
   
-  .secao__diferenciais__cards__titulo {
+  .secao__atividades__cards__titulo {
     font-weight: bold;
     font-size: 1.125em;
     margin-bottom: 0.625em;
     color: white;
   }
   
-  .secao__diferenciais__cards__descricao {
+  .secao__atividades__cards__descricao {
     font-size: 0.875em;
     color: white;
   }
-
-  
-
   

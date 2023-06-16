@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide de Cards</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .secao__instrutores {
+      position: relative;
+    }
+
+    .secao__instrutores__conteudo {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* Altera para 4 colunas */
+      gap: 1.5em; /* Espaçamento entre os cartões */
+      padding: 0 30px 0 30px;
+    }
+
+    .secao__instrutores__cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f4f4f4;
+      padding: 2em;
+      border-radius: 15px;
+    }
+
+    .secao__instrutores__cards__imagem img {
+      width: 120px;
+      padding-bottom: 15px;
+      border-radius: 50%; /* Torna a imagem redonda */
+    }
+
+    .secao__instrutores__cards__nome {
+      font-weight: bold;
+      text-align: center;
+      overflow: hidden;
+      margin-bottom: 0.5em;
+    }
+
+    .secao__instrutores__cards__descricao {
+      margin-bottom: 1em;
+      text-align: center;
+    }
+
+    .redes-sociais {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+    }
+
+    .social-link i {
+      font-size: 2em;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="secao__instrutores__conteudo">
+            <div class="col-md-3">
+              <div class="secao__instrutores__cards">
+                <div class="secao__instrutores__cards__imagem">
+                  <img src="../assets/imagens/do-utilizador.png" alt="">
+                </div>
+                <div class="secao__instrutores__texto">
+                  <h4 class="secao__instrutores__cards__nome">Card 1</h4>
+                  <p class="secao__instrutores__cards__descricao">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quos placeat earum id inventore, repellendus fugiat ipsa veritatis asperiores!
+                  </p>
+                </div>
+                <div class="redes-sociais">
+                  <a href="link-para-rede-social" class="social-link"><i class="fa fa-facebook fa-2x"></i></a>
+                  <a href="link-para-rede-social" class="social-link"><i class="fa fa-twitter fa-2x"></i></a>
+                  <a href="link-para-rede-social" class="social-link"><i class="fa fa-linkedin fa-2x"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Repita o código acima para adicionar mais cartões -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Navegação -->
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </main>
+
+  <!-- jQuery e Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

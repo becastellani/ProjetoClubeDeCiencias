@@ -1,0 +1,57 @@
+
+.secao__isntrutores{
+    position: relative;
+    width: 100%;
+}
+
+
+.secao__instrutores__conteudo {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .secao__instrutores__cards {
+
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 2em;
+    border-radius: 15px;
+  }
+  
+  .secao__instrutores__cards__imagem img {
+    width: 120px;
+    padding-bottom: 15px;
+    border-radius: 50%; /* Torna a imagem redonda */
+  }
+  
+  .secao__instrutores__cards__nome {
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 0.5em;
+  }
+  
+  .secao__instrutores__cards__descricao {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  .redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .social-link i {
+    font-size: 2em;
+  }
+  
