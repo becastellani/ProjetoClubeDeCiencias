@@ -1,0 +1,49 @@
+@media (max-width: 900px) {
+    .secao__atividades__conteudo {
+      grid-template-columns: repeat(2, 1fr); /* Alterado */
+      gap: 1em; /* Alterado */
+      padding: 1em; /* Alterado */
+    }
+  
+    .secao__atividades__cards {
+      justify-content: center; /* Alterado */
+    }
+  
+    .secao__atividades__texto {
+      width: 100%;
+    }
+  
+    .secao__atividades__cards__descricao {
+      font-size: 1em; /* Alterado */
+      color: white;
+      margin-top: 0.5em;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .secao__atividades__conteudo {
+      grid-template-columns: 1fr; /* Alterado */
+      gap: 1em; /* Alterado */
+      padding: 1em; /* Alterado */
+    }
+  
+    .secao__atividades__cards {
+      justify-content: center; /* Alterado */
+    }
+  
+    .secao__atividades__texto {
+      width: 100%;
+    }
+  
+    .secao__atividades__cards__titulo {
+      font-size: 1.25em; /* Alterado */
+      margin-bottom: 0.5em; /* Alterado */
+    }
+  
+    .secao__atividades__cards__descricao {
+      font-size: 1em; /* Alterado */
+      color: white;
+      margin-top: 0.5em;
+    }
+  }
+  

@@ -1,6 +1,6 @@
 .secao__atividades{
     background-color: red;
-    height: 100vh;
+    padding: 40px 40px;
     
 }
 
@@ -10,7 +10,7 @@
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 2.5em;
+    
    
   }
   
