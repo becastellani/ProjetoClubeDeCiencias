@@ -1,8 +1,7 @@
 .secao__atividades{
     background-color: red;
     height: 100vh;
-    position: relative;
-    top: 190px;
+    
 }
 
 .secao__atividades__titulo > h2 {

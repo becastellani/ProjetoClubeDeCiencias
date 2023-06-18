@@ -1,9 +1,21 @@
+.secao__isntrutores{
+
+  margin: 60px 0;
+}
+
 .secao__instrutores__conteudo {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
   justify-items: center;
   margin: 30px;
+}
+.secao__instrutores__titulo{
+
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
 }
 
 .secao__instrutores__cards {
