@@ -53,3 +53,32 @@
     font-size: 2em;
   }
   
+.secao__instrutores__botoes{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+  .botao-anterior,
+.botao-proximo {
+  background-color: #f4f4f4;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.botao-anterior {
+  margin-right: 10px;
+}
+
+.botao-proximo {
+  margin-left: 10px;
+}
+
+.botao-anterior:hover,
+.botao-proximo:hover {
+  background-color: #ddd;
+}
