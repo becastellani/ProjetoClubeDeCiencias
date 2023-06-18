@@ -1,0 +1,22 @@
+@media screen and (max-width: 900px) {
+    
+    .secao__instrutores__conteudo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        justify-items: center;
+        margin: 30px;
+      }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .secao__instrutores__conteudo {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        align-items: center;
+        margin: 30px;
+      }
+}

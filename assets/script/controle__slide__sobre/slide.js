@@ -7,9 +7,9 @@ $(document).ready(function() {
     function definirCardsPorVez() {
       var larguraTela = $(window).width();
   
-      if (larguraTela <= 400) {
+      if (larguraTela <= 500) {
         return 1;
-      } else if (larguraTela <= 800) {
+      } else if (larguraTela <= 900) {
         return 2;
       } else {
         return 4;
