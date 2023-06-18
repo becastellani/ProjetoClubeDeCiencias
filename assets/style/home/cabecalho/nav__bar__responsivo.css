@@ -23,7 +23,7 @@
         width: 100%;
        
         position: absolute;
-        top: 90px;
+        top: 80px;
         left: 0px;
        
     
@@ -43,23 +43,18 @@
     }
 
     .nav__bar__lista__iten > a{
-
         margin-left: 0;
     }
    
     
     .nav__bar__butom{
-
-
         display: block;
         padding-right: 1.9em;
-
     }
 
     .nav__bar__responsivo{
         visibility: visible;
         height: 200px;
-
     }
 }
 
@@ -68,14 +63,16 @@
 
     
     .nav__bar{
-
         padding: 0;
         padding-top: 10px;
-
     }
 
     .nav__bar__logo img{
-
         width: 100px;
+    }
+
+    .nav__bar__lista{
+        top: 60px;
+        left: 0px;
     }
 } 

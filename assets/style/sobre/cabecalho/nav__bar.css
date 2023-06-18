@@ -4,8 +4,8 @@
 }
 
 .nav__bar{
-
-    
+/* 
+    position: fixed; */
     width: 100%;
     padding: 0 60px 0 30px ;/* definir um padding para menu caso a logo seja alterada  */
     display: flex;

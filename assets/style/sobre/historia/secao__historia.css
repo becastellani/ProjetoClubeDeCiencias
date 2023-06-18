@@ -1,6 +1,7 @@
 .secao__historia{
 
     width: 100vw;   
+    height: 75vh;
     padding-left: 40px;
     padding-right: 40px;
     display: flex;
@@ -22,6 +23,7 @@
     width: 85%;
     height: auto;
     box-shadow: -10px 10px 5px 0px var(--color__sombra__imagem);
+    margin-bottom: 30px;
     
 
 }
@@ -30,6 +32,7 @@
 .secao__historia__conteudo{
     width: 50%;
     height: auto;
+    margin: 30px 0;
     
     
 }
@@ -52,3 +55,6 @@
     display: block;
 }
 
+.secao__sobre__conteudo__texto{
+    text-align: start;
+}
