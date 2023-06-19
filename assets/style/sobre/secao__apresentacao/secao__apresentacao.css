@@ -8,10 +8,12 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+   
     
     
 
 }
+
 
 .baner__apresentação__conteudo{
    
@@ -36,14 +38,15 @@
     
     font-family: var(--font__lato);
     display: block;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 800;
 }
 
 .baner__apresentação__descrição{
 
     max-width: 450px;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 20px;
     color: white;
    
 }

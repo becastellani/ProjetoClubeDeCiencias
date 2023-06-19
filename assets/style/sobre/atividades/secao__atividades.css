@@ -1,19 +1,26 @@
 .secao__atividades{
-    background-color: red;
     padding: 40px 40px;
+    overflow-x: hidden;
+    padding-top: 30px;
     
 }
 
+.secao__atividades__titulo{
+  padding-top: 30px;
+}
 .secao__atividades__titulo > h2 {
     font-family: var(--font__popins);
-    font-size: 1.875em;
+    font-size: 3em;
     font-weight: bold;
     color: white;
     text-align: center;
+    overflow: hidden;
+    
     
    
   }
-  
+
+
   .secao__atividades__conteudo {
 
     
@@ -48,7 +55,7 @@
   
   .secao__atividades__cards__titulo {
     font-weight: bold;
-    font-size: 1.125em;
+    font-size: 1.6em;
     margin-bottom: 0.625em;
     color: white;
   }
@@ -58,7 +65,8 @@
   }
   
   .secao__atividades__cards__descricao {
-    font-size: 0.875em;
+    font-size: 1.2em;
     color: white;
   }
+  
   
