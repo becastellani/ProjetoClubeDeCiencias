@@ -1,0 +1,52 @@
+.baner__apresentação{
+
+    width: 100vw;
+    height: 80vh;
+
+    background-image: url("../../../imagens/examinando-a-amostra-com-microscopio.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    font-family: var(--font__lato);
+    
+
+}
+
+
+.baner__apresentação__conteudo{
+   
+    height: inherit; /* erdando de baner apresentação */
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+.baner__apresentação__titulo{
+
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.baner__apresentação__titulo > span{
+    
+    font-family: var(--font__lato);
+    display: block;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.baner__apresentação__descrição{
+
+    max-width: 450px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+   
+}
