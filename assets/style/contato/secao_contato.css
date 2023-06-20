@@ -22,11 +22,7 @@
     }
     .contato-texto {
       flex: 0 1 auto; 
-      max-width: 40%; 
-      margin-top: 20px;
-      color: white;
-      font-weight: 600;
-      padding: 20px;
+
     }
     .contato-form{
       margin-left: 40px;
@@ -126,3 +122,5 @@
     .input-submit input:focus, .input-submit input:active {
       box-shadow: 0 0 0 0.2rem rgba(235, 0, 69, .4);
     }
+
+
