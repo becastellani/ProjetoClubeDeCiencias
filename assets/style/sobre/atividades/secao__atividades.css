@@ -1,8 +1,8 @@
 .secao__atividades{
-    padding: 40px 40px;
+    
     overflow-x: hidden;
     padding-top: 30px;
-    
+    padding-bottom: 20px;
 }
 
 .secao__atividades__titulo{
