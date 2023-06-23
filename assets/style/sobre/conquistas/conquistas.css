@@ -1,137 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.wrapper{
+  padding-bottom: 30px;
 }
-
-.secao__conquistas{
-
-  width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  padding-top: 10px;
-  padding-bottom: 60px;
-
-}
-
-.secao__conquistas__cabecalho{
-  text-align: center;
-  
-}
-
-.secao__conquistas__cabecalho > h2{
-
-  text-transform: uppercase;
-  font-weight: 800;
+.secao__conquistas__cabecalho h2{
+  font-size: 3em;
+  color: white;
   font-family: 'Poppins';
-  color: white;
-  font-size: 40px;
-  padding-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
 }
-
-.secao__conquistas__cabecalho > p {
-
-  max-width: 600px;
-  font-size: 18px;
+.secao__conquistas__cabecalho p
+{
+  font-size: 20px;
+  color: white;
+  font-family: 'Poppins';
   font-weight: 600;
-  color: white;
+  text-align: center;
 }
 
-/* cards */
-
-
-
-
-
-.secao__conquistas__cards {
-display: grid;
-grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas do mesmo tamanho */
-gap: 20px; /* Adiciona espaço de 20 pixels entre as colunas */
-height: 400px;
-padding: 50px;
-padding-top: 20px;
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 50px;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+  display: none;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+  left: -22px;
+}
+.wrapper i:last-child{
+  right: -22px;
 }
 
-
-
-.secao__card__conteudo__card {
-width: 300px; /* Ocupa a largura total do contêiner pai */
-height: auto; /* Ocupa a altura total do contêiner pai */
-border-radius: 10px;
-overflow: hidden;
-cursor: pointer;
-position: relative;
-color: white;
-box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 342px;
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.carousel img{
+  width: 200px;
+  height: 40vh;
 }
 
-.secao__card__conteudo__card header img {
-position: absolute;
-object-fit: cover;
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-opacity: 0.9;
-transition: opacity .2s ease-out;
-}
-
-.secao__card__conteudo__card h4 {
-position: absolute;
-inset: auto auto 30px 30px;
-margin: 0;
-transition: inset .3s .3s ease-out;
-font-family: 'Roboto Condensed', sans-serif;
-font-weight: normal;
-text-transform: uppercase;
-font-size: 16px;
-padding-bottom: 10px;
-}
-
-.secao__card__conteudo__card p {
-position: absolute;
-opacity: 0;
-max-width: 80%;
-transition: opacity .3s ease-out;
-inset: auto auto 80px 30px;
-}
-
-.secao__card__conteudo__card a {
-position: absolute;
-opacity: 0;
-max-width: 80%;
-transition: opacity .3s ease-out;
-inset: auto auto 40px 30px;
-color: inherit;
-text-decoration: none;
-}
-
-.secao__card__conteudo__card:hover h4 {
-inset: auto auto 220px 30px;
-transition: inset .3s ease-out;
-}
-
-.secao__card__conteudo__card:hover p,
-.secao__card__conteudo__card:hover a {
-opacity: 1;
-transition: opacity .5s .1s ease-in;
-}
-
-.secao__card__conteudo__card:hover header img {
-transition: opacity .3s ease-in;
-opacity: 1;
-}
-
-.material-symbols-outlined {
-vertical-align: middle;
+h3{
+  margin-bottom: 0px;
+  overflow-x: hidden;
 }
 
 
 
-
+@media screen and (max-width: 900px) {
+  
+  .secao__conquistas__cabecalho h2{
+    font-size: 30px;
+  }
+  .secao__conquistas__cabecalho p{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
