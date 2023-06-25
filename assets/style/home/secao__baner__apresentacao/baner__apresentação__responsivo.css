@@ -7,8 +7,8 @@
 
     .baner__apresentação__conteudo{
         
-        align-items: center;
-        padding: 30px;
+        align-items: start;
+        padding: 80px;
     }
 
     .video-carousel2{
@@ -34,6 +34,7 @@
     .baner__apresentação__conteudo{
     
         align-items: start;
+        padding: 30px;
        
     }
     
