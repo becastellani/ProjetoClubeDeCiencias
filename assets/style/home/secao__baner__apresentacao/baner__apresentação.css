@@ -4,11 +4,8 @@
     font-family: var(--font__lato);
     width: 100%;
 
-    background-color: rgba(0, 0, 0, 0.2); /* Cor da camada semi-transparente */
+    background-color: rgba(0, 0, 0, 0.4); /* Cor da camada semi-transparente */
 
-}
-.gradiente-main{
-    background: linear-gradient(-45deg, #253646 20%, #185EA9 80% );
 }
 
 .baner__apresentação__conteudo{
@@ -30,6 +27,7 @@
 .baner__apresentação__conteudo > h2 >span{
     
     font-family: var(--font__lato);
+    text-transform: uppercase;
     display: block;
     font-size: 80px;
     font-weight: 800;

@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: space-between;
 
-    background-color: var(--color__background);
+    background: linear-gradient(135deg, #182dea, #0d1e61);
 
 
 }

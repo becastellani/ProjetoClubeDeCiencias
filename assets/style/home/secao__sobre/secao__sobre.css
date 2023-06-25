@@ -1,6 +1,4 @@
-:root {
-    --tamanho-base: 16px; /* Defina o tamanho base do seu documento, se necessário */
-  }
+
   
   .secao__sobre {
     width: 100%;
@@ -9,6 +7,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 3.75em; /* 60px / 16px = 3.75em */
+ 
   }
   
   .secao__sobre__conteudo {
@@ -77,6 +76,6 @@
   .secao__sobre__imagem img {
     width: 80%; /* 80% of parent width = 80% of 6.25em = 5em */
     height: auto;
-    box-shadow: 0.6875em 0.75em 0.3125em 0 var(--color__sombra__imagem);
+    box-shadow: 0.6875em 0.75em 0.3125em 0 #080640;
   }
   

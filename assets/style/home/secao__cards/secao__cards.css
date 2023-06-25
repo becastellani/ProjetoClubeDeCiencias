@@ -1,9 +1,8 @@
 .secao__cards {
  padding-top: 40px;
+
 }
-.background-gradiente{
-  background: linear-gradient(-360deg, #253646 0%, #185EA9 100% );
-}
+
 .secao__card__conteudo{
   width: 100vw;
   display: grid;
