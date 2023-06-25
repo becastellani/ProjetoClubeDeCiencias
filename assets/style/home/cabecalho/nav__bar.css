@@ -7,7 +7,8 @@
 
     
     width: 100%;
-    padding: 0 60px 0 30px ;/* definir um padding para menu caso a logo seja alterada  */
+    height: 10vh;
+    padding: 0 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,7 +22,9 @@
 .nav__bar__lista{
     display: inherit; /* pega a propriedade display do nav__bar */
     justify-content: space-around;
+    align-items: center;
     width: 40%;
+    padding-top: 20px;
     max-width: 600px;
     min-width: 500px;
 }
