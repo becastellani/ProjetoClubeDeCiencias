@@ -86,3 +86,6 @@
   }
 }
 
+.gradiente-index{
+  background: linear-gradient(-45deg, #253646 20%, #185EA9 80% );
+}

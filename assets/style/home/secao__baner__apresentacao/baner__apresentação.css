@@ -20,7 +20,7 @@
 
 .baner__apresentação__conteudo > h2{
     font-size: 70px;
-    color:#3852FF;
+    color:white;
     font-weight: 600;
 }
 
@@ -31,7 +31,7 @@
     display: block;
     font-size: 80px;
     font-weight: 800;
-    color: #FF4D1C;
+    color: white;
 
 }
 
@@ -58,7 +58,7 @@
     font-weight: 600;
     color: #f5f5f5;
     
-    border: 2px solid #FF4D1C;
+    border: 2px solid #D31D4E;
     border-radius: 10px;
 
     cursor: pointer;
@@ -71,7 +71,7 @@
 
 .baner__apresentação__pseudo__botao > p > a:hover{
     color: #f5f5f5;
-    background-color: #FF4D1C;
+    background-color: #D31D4E;
 }
 
 /* responsavel pelas imagens acionar quando estiver com imagens oficiais */

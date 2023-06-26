@@ -15,10 +15,11 @@
   }
   
   .secao__sobre__conteudo__sub__titulo {
+    font-family: var(--fonte__Poppins);
     font-size: 1.25em; /* 20px / 16px = 1.25em */
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--color__subtitulo);
+    color: #D31D4E;
   }
   
   .secao__sobre__conteudo__titulo {
@@ -76,6 +77,7 @@
   .secao__sobre__imagem img {
     width: 80%; /* 80% of parent width = 80% of 6.25em = 5em */
     height: auto;
+    border-radius: 20px;
     box-shadow: 0.6875em 0.75em 0.3125em 0 #080640;
   }
   

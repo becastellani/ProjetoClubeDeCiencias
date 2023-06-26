@@ -19,7 +19,7 @@
 
         max-width: none;
         min-width: 100%;
-        background-color: var(--color__background);
+        background: linear-gradient(-45deg, #253646 20%, #185EA9 80% );
 
         visibility: hidden;
         width: 100%;

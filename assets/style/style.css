@@ -45,10 +45,9 @@ body{
     /* cores */
 
     --color__texto1: #ffffff;
-    --color__background :#3852FF;
+    --color__background : #182dea;
 
-    --cor__titulo: #3852FF;
-    --color__subtitulo:#FF4D1C;
+    --color__subtitulo:#D31D4E;
     --color__titulo: #ffffff;
     --color__sombra__imagem: #000000bf;
 

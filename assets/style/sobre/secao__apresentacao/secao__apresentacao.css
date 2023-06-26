@@ -31,18 +31,20 @@
 .baner__apresentação__titulo{
 
     font-size: 60px;
-    color: var(--cor__titulo);
-    font-weight: 600;
+    font-family: var(--font__popins);
+    color: white;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .baner__apresentação__titulo > span{
     
-    font-family: var(--font__lato);
+    font-family: var(--font__popins);
     display: block;
     font-size: 80px;
     font-weight: 800;
-    color: var(--color__subtitulo);
+    color: white;
+    font-weight: 700;
 }
 
 .baner__apresentação__descrição{
