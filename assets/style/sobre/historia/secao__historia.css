@@ -63,3 +63,7 @@
 .secao__sobre__conteudo__texto{
     text-align: start;
 }
+
+i > svg{
+    fill: black;
+}
