@@ -6,6 +6,10 @@ footer{
 background-color: #253646;
 color: white;
 }
+.listas-redes-sociais{
+    display: flex;
+    justify-content: space-around;
+}
 
 .listas > h4{
     font-size: 25px;
