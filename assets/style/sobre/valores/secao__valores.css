@@ -17,6 +17,7 @@
   justify-content: center;
   padding-left: 60px;
   overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.9); /* Cor da camada semi-transparente */
 }
 
 .secao__metodologia__conteudo > h2 {

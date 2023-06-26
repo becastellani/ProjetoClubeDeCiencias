@@ -75,11 +75,12 @@
   scroll-snap-align: start;
   height: 342px;
   list-style: none;
-  background: #fff;
+
   cursor: pointer;
   padding-bottom: 15px;
   flex-direction: column;
   border-radius: 8px;
+  border: 0px;
 }
 .carousel img{
   width: 200px;
@@ -90,6 +91,7 @@
 h3{
   margin-bottom: 0px;
   overflow-x: hidden;
+  color: black;
  
 }
 
