@@ -1,0 +1,72 @@
+.secao__atividades{
+    
+    overflow-x: hidden;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.secao__atividades__titulo{
+  padding-top: 30px;
+}
+.secao__atividades__titulo > h2 {
+    font-family: var(--font__popins);
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    
+    
+   
+  }
+
+
+  .secao__atividades__conteudo {
+
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+    padding: 2.5em;
+    padding-bottom: 3.75em;
+
+   
+  }
+  
+  .secao__atividades__cards {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+  }
+  
+  .secao__atividades__cards__icone {
+    font-size: 2em;
+    align-self: flex-start;
+    padding-right: 0.5em;
+    color: black;
+  }
+  
+  .secao__atividades__texto {
+    width: 80%;
+    text-align: start;
+  }
+  
+  .secao__atividades__cards__titulo {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-bottom: 0.625em;
+    color: white;
+  }
+
+  .secao__atividades__texto h4{
+    overflow: hidden;
+  }
+  
+  .secao__atividades__cards__descricao {
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  

@@ -1,0 +1,65 @@
+.secao__historia{
+
+    width: 100vw;   
+    height: 75vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    background: linear-gradient(-45deg, #253646 20%, #185EA9 80% );
+    color:white;
+    overflow: hidden;
+}
+
+.secao__sobre__imagem{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    
+    padding: 60px 0; /* isso e uma ganbiarra para a sombra aparecer, porque se eu colocar a merda de uma margin ou um padding na section esconde a sombra */
+   
+}
+
+.secao__sobre__imagem img{
+
+    width: 85%;
+    height: auto;
+    box-shadow: 0.6875em 0.75em 0.3125em 0 #080640;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    
+
+}
+
+
+.secao__historia__conteudo{
+    width: 50%;
+    height: auto;
+    margin: 30px 0;
+    
+    
+}
+
+.secao__sobre__conteudo__sub__titulo{
+
+    overflow: hidden;
+    font-size: 20px;
+    color: var(--color__subtitulo);
+
+}
+
+.secao__sobre__conteudo__titulo{
+
+    font-size: 45px;
+    font-weight: 700;
+    font-family: var( --font__lato);
+}
+
+.secao__sobre__conteudo__titulo > span{
+    display: block;
+}
+
+.secao__sobre__conteudo__texto{
+    text-align: start;
+}

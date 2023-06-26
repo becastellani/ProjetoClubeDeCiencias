@@ -1,0 +1,71 @@
+/* Adicione as regras de mídia para telas menores */
+@media (max-width: 500px) {
+
+  .secao__metodologia {
+   
+    height: 135vh;
+
+  }
+  .secao__metodologia__conteudo {
+      padding-left: 30px;
+      
+  }
+
+  .secao__metodologia__conteudo > h2 {
+      font-size: 25px;
+  }
+
+  
+
+  .grid-container {
+      top: 48%;
+      grid-template-columns:repeat(1, 1fr);
+      gap: 30px;
+      padding: 0 30px;
+  }
+
+  .card {
+      padding: 10px;
+  }
+
+  h2.card-title {
+      font-size: 25px;
+  }
+
+  p.card-text {
+      font-size: 16px;
+  }
+}
+
+
+@media (min-width: 501px) and (max-width: 900px){
+    .secao__metodologia__conteudo {
+      padding: 0 40px;
+      height: 50vh;
+    }
+  
+    .secao__metodologia__conteudo > h2 {
+      font-size: 30px;
+    }
+    
+    .grid-container {
+        width: 100%;
+      position: absolute;
+      top: 45%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .card {
+        width: 45%;
+    }
+  
+    h2.card-title {
+      font-size: 30px;
+    }
+  
+    p.card-text {
+      font-size: 18px;
+    }
+  }

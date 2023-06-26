@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.wrapper{
+  padding-bottom: 30px;
+}
+.secao__conquistas__cabecalho h2{
+  font-size: 3em;
+  color: white;
+  font-family: 'Poppins';
+  font-weight: bold;
+  text-align: center;
+}
+.secao__conquistas__cabecalho p
+{
+  font-size: 20px;
+  color: white;
+  font-family: 'Poppins';
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 50px;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+  display: none;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+  left: -22px;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 342px;
+  list-style: none;
+  background: white;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 0px;
+}
+.carousel img{
+  width: 200px;
+  height: 40vh;
+  border-radius: 20px;
+}
+
+h3{
+  margin-bottom: 0px;
+  overflow-x: hidden;
+  color: white;
+ 
+}
+
+
+
+@media screen and (max-width: 900px) {
+  
+  .secao__conquistas__cabecalho h2{
+    font-size: 30px;
+  }
+  .secao__conquistas__cabecalho p{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}

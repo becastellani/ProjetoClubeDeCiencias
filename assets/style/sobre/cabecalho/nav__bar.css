@@ -1,0 +1,64 @@
+.cabecalho__pagina{
+    width: 100vw;
+    overflow-x: hidden; /* Adicionado para remover o scroll lateral */
+}
+
+.nav__bar{
+
+    
+    width: 100%;
+    height: 10vh;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background: linear-gradient(-45deg, #253646 20%, #185EA9 80% );
+
+
+}
+
+.nav__bar__lista{
+    display: inherit; /* pega a propriedade display do nav__bar */
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    padding-top: 20px;
+    max-width: 600px;
+    min-width: 500px;
+}
+
+.nav__bar__lista__iten > a{
+    position: relative;
+    font-family: var(--font__popins);
+    font-weight: 600;
+    text-transform: uppercase;
+
+    color: var(--color__texto1);
+
+    text-decoration: none;
+}
+
+.nav__bar__lista__iten > a::after{
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #D31D4E;  
+    transition: 0.4s ease-in-out;
+}
+
+.nav__bar__lista__iten > a:hover::after{
+    width: 100%;
+}
+
+
+
+.nav__bar__butom{
+    display: none;
+    
+}

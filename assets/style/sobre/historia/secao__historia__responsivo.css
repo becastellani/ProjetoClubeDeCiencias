@@ -1,0 +1,111 @@
+@media screen and (max-width: 390px) {
+    .secao__historia {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .secao__sobre__imagem {
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+    }
+  
+    .secao__sobre__imagem img {
+        box-shadow: none;
+        height: auto;
+        width: 100%;
+     
+    }
+  
+    .secao__historia__conteudo {
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+  
+    .secao__sobre__conteudo__sub__titulo {
+      overflow: hidden;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  
+    .secao__sobre__conteudo__titulo {
+      font-size: 28px;
+      font-weight: 700;
+      font-family: var(--font__lato);
+      margin-top: 10px;
+    }
+  
+    .secao__sobre__conteudo__titulo > span {
+      display: block;
+    }
+  
+    .secao__sobre__conteudo__texto {
+      font-size: 14px;
+      margin-top: 20px;
+      text-align: start;
+    }
+  }
+
+
+  @media screen and (max-width: 900px) {
+    .secao__historia {
+      width: 100%;
+      height: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+     
+      flex-direction: column-reverse;
+     
+      justify-content: center;
+    }
+  
+    .secao__sobre__imagem {
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+    }
+  
+    .secao__sobre__imagem img {
+      max-width: 100%;
+      height: auto;
+      box-shadow: -5px 5px 5px 0px var(--color__sombra__imagem);
+    }
+  
+    .secao__historia__conteudo {
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+  
+    .secao__sobre__conteudo__sub__titulo {
+      overflow: hidden;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  
+    .secao__sobre__conteudo__titulo {
+      font-size: 28px;
+      font-weight: 700;
+      font-family: var(--font__lato);
+      margin-top: 10px;
+    }
+  
+    .secao__sobre__conteudo__titulo > span {
+      display: block;
+    }
+  
+    .secao__sobre__conteudo__texto {
+      font-size: 16px;
+      margin-top: 20px;
+      max-width: 600px; /* não entendo por que essa merda ferra com o alinhamento do display flex */
+      text-align: start;
+      margin: 0 auto; /* sem isso o alinhamento não funciona */
+    }
+  }
+  
+  

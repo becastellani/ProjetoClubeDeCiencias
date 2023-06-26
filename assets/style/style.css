@@ -17,14 +17,25 @@
 
     overflow-x: hidden;
     
+    
 
 }
 
+main{
+    overflow-y: hidden;
+
+}
+.contaner__main{
+    background: linear-gradient(135deg, #182dea, #0d1e61);
+}
 a{
     text-decoration: none;
 }
 
-
+body{
+    overflow: overlay;
+    overflow-x: hidden;
+}
 :root{
 
     /* fonts */
@@ -34,9 +45,23 @@ a{
     /* cores */
 
     --color__texto1: #ffffff;
-    --color__background : #185EA9;
+    --color__background : #182dea;
+
+    --color__subtitulo:#D31D4E;
+    --color__titulo: #ffffff;
+    --color__sombra__imagem: #000000bf;
+
+}
+::-webkit-scrollbar {
+    background: transparent;
 }
 
+::-webkit-scrollbar-thumb{
+    background: lightgray;
+    border-radius: 10px;
+}
 
-
-
+::-webkit-scrollbar-corner{
+    background: lightgray;
+    border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+@media screen and (max-width: 480px) {
+    .secao__diferenciais__titulo > h2 {
+      font-size: 1.5em; /* Ajustar o tamanho da fonte do título */
+      margin-top: 1.5em; /* Ajustar a margem superior do título */
+    }
+  
+    .secao__diferenciais__conteudo {
+      grid-template-columns: 1fr; /* Alterar a grade para uma coluna */
+      padding: 1.5em; /* Ajustar o padding */
+      padding-bottom: 3em; /* Ajustar o padding inferior */
+    }
+  
+    .secao__diferenciais__cards__icone {
+      font-size: 2em; /* Aumentar o tamanho dos ícones */
+    }
+  
+    .secao__diferenciais__texto {
+      width: 70%; /* Definir uma largura menor para o texto */
+    }
+  
+    .secao__diferenciais__cards__titulo {
+      font-size: 1em; /* Ajustar o tamanho da fonte do título */
+      margin-bottom: 0.5em; /* Ajustar a margem inferior do título */
+    }
+  
+    .secao__diferenciais__cards__descricao {
+      font-size: 0.875em; /* Manter o tamanho da fonte da descrição */
+    }
+  }
+  

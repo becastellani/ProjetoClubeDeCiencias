@@ -1,0 +1,118 @@
+@media (max-width: 992px) {
+
+    .baner__apresentação__geral{
+
+        padding-left: 0;
+    }
+
+    .baner__apresentação__conteudo{
+        
+        align-items: start;
+        padding: 80px;
+    }
+
+    .video-carousel2{
+      display: none;
+    }
+    .video-carousel1{
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      zoom: 100%;
+    }
+
+
+    
+}
+
+
+@media (max-width: 599px) {
+
+
+    .baner__apresentação__conteudo{
+    
+        align-items: start;
+        padding: 30px;
+       
+    }
+    
+    .baner__apresentação__conteudo > h2{
+
+        font-size: 40px;
+        text-align: start;
+    }
+
+    .baner__apresentação__conteudo > h2 > span{
+
+        font-size: 45px;
+    }
+
+    .baner__apresentação__descrição{
+    
+        max-width: 350px;
+        font-size: 1em;
+    }
+
+    .baner__apresentação__pseudo__botao{
+
+        text-align: center;
+    }
+
+    .baner__apresentação__pseudo__botao > p >a{
+      
+        margin: 30px 10px 0 0;
+        width: 130px;
+    
+        padding: 8px 0;
+        font-size: 17px;
+        border-radius: 8px;
+    
+    }
+
+    .ultimo-card{
+      display: none;
+    }
+
+
+    
+}
+
+@media (max-height: 500px) {
+    .baner__apresentação__conteudo {
+      height: auto;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 20px;
+    }
+  
+    .baner__apresentação__conteudo > h2 {
+      font-size: 32px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  
+    .baner__apresentação__conteudo > h2 > span {
+      font-size: 36px;
+    }
+  
+    .baner__apresentação__descrição {
+      max-width: 400px;
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+  
+    .baner__apresentação__pseudo__botao {
+      text-align: left;
+    }
+  
+    .baner__apresentação__pseudo__botao > p > a {
+      margin: 10px;
+      width: 100px;
+      padding: 8px;
+      font-size: 14px;
+      border-radius: 8px;
+    }
+  }
+  

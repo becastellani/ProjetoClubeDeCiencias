@@ -1,0 +1,54 @@
+.secao__diferenciais__titulo > h2 {
+    font-family: var(--font__popins);
+    font-size: 1.875em; /* Aumentar o tamanho da fonte do título */
+    font-weight: bold;
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 2.5em; /* Aumentar a margem superior */
+    overflow: hidden;
+  }
+  
+  .secao__diferenciais__conteudo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+    padding: 2.5em;
+    padding-bottom: 3.75em; /* Aumentar o padding inferior */
+    color:whitesmoke;
+  }
+  
+  .secao__diferenciais__cards {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+  }
+  
+  .secao__diferenciais__cards__icone {
+    font-size: 2em;
+    align-self: flex-start;
+    padding-right: 0.5em;
+    color: black;
+  }
+  
+  .secao__diferenciais__texto {
+    width: 80%;
+    text-align: start;
+  }
+  
+  .secao__diferenciais__cards__titulo {
+    font-weight: bold;
+    font-size: 1.125em;
+    margin-bottom: 0.625em;
+  
+  }
+  
+  .secao__diferenciais__cards__descricao {
+    font-size: 0.875em;
+  
+  }
+
+  
+
+  

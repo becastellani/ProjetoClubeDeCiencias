@@ -1,0 +1,42 @@
+@media only screen and (max-width: 500px) {
+   
+    .baner__apresentação{
+        height: 60vh;
+        background-size: auto;
+        background-attachment: fixed;
+    }
+   
+    .baner__apresentação__conteudo {
+        padding-left: 40px;
+        
+
+    }
+
+    .baner__apresentação__titulo {
+        font-size: 30px;
+    }
+
+    .baner__apresentação__titulo > span {
+        font-size: 40px;
+    }
+
+    .baner__apresentação__descrição {
+        max-width: 250px;
+        font-size: 12px;
+    }
+
+    .baner__apresentação {
+        background-position: top; /* Ajusta a posição da imagem de fundo para o topo */
+    }
+}
+
+@media screen and (max-width: 900px){
+    .baner__apresentação{
+        height: 65vh;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+

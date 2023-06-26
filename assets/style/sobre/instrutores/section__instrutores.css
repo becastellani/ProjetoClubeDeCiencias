@@ -1,0 +1,104 @@
+.secao__instrutores{
+  padding: 60px 0;
+  background: linear-gradient(-45deg, #253646 20%, #185EA9 80% );
+  
+}
+
+.secao__instrutores__conteudo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+  margin: 30px;
+}
+.secao__instrutores__titulo{
+
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  overflow: hidden;
+}
+
+.secao__instrutores__titulo h2{
+  color: white;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.secao__instrutores__cards {
+ 
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.secao__instrutores__cards.active {
+  display: flex;
+}
+
+.secao__instrutores__cards__imagem{
+  text-align: center; /* isso é uma adaptação tecnica planejada, funciona mas nnão e o ideal */
+}
+
+.secao__instrutores__cards__imagem img {
+  width: 60%;
+  padding-bottom: 15px;
+  border-radius: 50%;
+}
+
+.secao__instrutores__cards__nome {
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+}
+
+.secao__instrutores__cards__descricao {
+  margin-bottom: 1em;
+  text-align: center;
+}
+ 
+  .redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .social-link i {
+    font-size: 2em;
+  }
+  
+.secao__instrutores__botoes{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+  .botao-anterior,
+.botao-proximo {
+  background-color: #f4f4f4;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.botao-anterior {
+  margin-right: 10px;
+}
+
+.botao-proximo {
+  margin-left: 10px;
+}
+
+.botao-anterior:hover,
+.botao-proximo:hover {
+  background-color: #ddd;
+}

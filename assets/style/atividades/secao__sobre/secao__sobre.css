@@ -1,0 +1,115 @@
+:root {
+    --tamanho-base: 16px; /* Defina o tamanho base do seu documento, se necessário */
+  }
+  
+  .secao__sobre {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 3.75em; /* 60px / 16px = 3.75em */
+
+  }
+  
+  .gradiente-atividades{
+    background: linear-gradient(-45deg, #253646 20%, #185EA9 80% );
+  }
+  .secao__sobre__conteudo {
+    width: 50%;
+  }
+  
+  .secao__sobre__conteudo__sub__titulo {
+    font-size: 1.25em; /* 20px / 16px = 1.25em */
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--color__subtitulo);
+  }
+  
+  .secao__sobre__conteudo__titulo {
+    font-weight: 800;
+    font-size: 2.5em; /* 40px / 16px = 2.5em */
+    font-family: 'Poppins', sans-serif;
+    color: var(--color__titulo);
+    padding-bottom: 20px;
+  }
+  
+  .secao__sobre__conteudo__texto {
+    max-width: 31.25em; /* 500px / 16px = 31.25em */
+    margin-bottom: 1.875em; /* 30px / 16px = 1.875em */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .secao__sobre__conteudo__citacao {
+    padding-left: 1.875em; /* 30px / 16px = 1.875em */
+    position: relative;
+    color: white;
+    margin-bottom: 1.875em; /* 30px / 16px = 1.875em */
+  }
+  
+  .secao__sobre__conteudo__citacao > p {
+    max-width: 23.75em; /* 380px / 16px = 23.75em */
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .secao__sobre__conteudo__citacao::before {
+    content: "";
+    display: block;
+    width: 0.1875em; /* 3px / 16px = 0.1875em */
+    height: 100%;
+    background-color: var(--color__subtitulo);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .secao__sobre__conteudo__citacao > p > span {
+    text-align: end;
+    display: block;
+  }
+  
+  .secao__sobre__conteudo__pseudo__botao {
+    text-align: end;
+  }
+  
+  .secao__sobre__imagem {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .secao__sobre__imagem img {
+    width: 80%; /* 80% of parent width = 80% of 6.25em = 5em */
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0.6875em 0.75em 0.9em 0 black ;
+  }
+
+  .secao__sobre__dois{
+    flex-direction: row-reverse;
+  }
+
+  .secao__sobre__imagem{
+    
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .secao__sobre__imagem--dois img{
+
+    box-shadow: -0.6875em 0.75em 0.9em 0 black ;
+
+  }
+
+  footer{
+    color: white;
+    background-color: #253646;
+  }
+h4{
+    overflow: hidden;
+  }

@@ -9,7 +9,7 @@
     background-color: #185EA9;
     color:white;
     display: flex;
-    font-family: sans-serif;
+    font-family: 'Poppins' sans-serif;
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
@@ -22,6 +22,7 @@
     flex-wrap: wrap;
     width: 100%;
   }
+
   
   .logo img {
     height: 50px;
@@ -51,4 +52,6 @@
   .nav-links a:hover {
     color: #00bcd4;
   }
+  
+
   

@@ -1,0 +1,76 @@
+@media screen and (max-width: 992px) {
+    .secao__sobre {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .secao__sobre__conteudo {
+      width: 100%;
+      text-align: left;
+    }
+  
+    .secao__sobre__conteudo__sub__titulo {
+      font-size: 1.25em; /* Aumentar a fonte do subtítulo para a versão responsiva */
+    }
+  
+    .secao__sobre__conteudo__titulo {
+      font-size: 2.5em; /* Aumentar a fonte do título para a versão responsiva */
+    }
+  
+    .secao__sobre__conteudo__texto {
+      max-width: 100%;
+      margin-bottom: 1.875em; /* 30px / 16px = 1.875em */
+      color: white;
+      text-align: left;
+    }
+  
+    .secao__sobre__conteudo__pseudo__botao {
+      text-align: end;
+    }
+  
+    .secao__sobre__imagem {
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 1.875em; /* 30px / 16px = 1.875em */
+    }
+  
+    .secao__sobre__imagem img {
+      width: 85%; /* Aumentar o tamanho da imagem para a versão responsiva */
+      height: auto;
+      box-shadow: 0.75em 0.875em 1.25em 0 var(--color__sombra__imagem); /* Alterar a sombra para a versão responsiva */
+    }
+  }
+
+
+  @media screen and (max-width: 480px) {
+
+
+    .secao__sobre {
+        padding: 0.8em; /* Ajustar o padding para no máximo 10px */
+      }
+
+    .secao__sobre__conteudo__sub__titulo {
+      font-size: 1.125em; /* Ajustar o tamanho da fonte do subtítulo */
+    }
+  
+    .secao__sobre__conteudo__titulo {
+      font-size: 2em; /* Ajustar o tamanho da fonte do título */
+    }
+  
+    .secao__sobre__conteudo__texto {
+      font-size: 0.875em; /* Ajustar o tamanho da fonte do texto */
+    }
+
+    .secao__sobre__conteudo__pseudo__botao {
+        text-align: center; /* Centralizar o botão */
+      }
+
+      .secao__sobre__imagem img {
+
+        width: 100%; /* Aumentar o tamanho da imagem para a versão responsiva */
+        height: auto;
+        box-shadow: none; /* Alterar a sombra para a versão responsiva */
+      }
+  }
+  

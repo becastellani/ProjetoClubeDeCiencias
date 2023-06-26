@@ -1,0 +1,124 @@
+.gradiente-contato{
+    background: linear-gradient(-45deg, #FF9837 0%, #ff0f7b 100%);
+    overflow: hidden;
+}
+
+
+
+
+    
+    .secao_contato_container{
+      padding: 20px;
+      padding-top: 80px;
+      overflow: hidden;
+    }
+    .contato{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+     
+    }
+    .contato-texto > img{
+      flex: 0 1 auto; 
+      width: 100%;
+      height: 70vh;
+      justify-content: left;
+      padding-top: 80px;
+  
+    }
+    .contato-form{
+      margin-left: 40px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      background-color: white;
+      width: 30vw;
+      border-radius: 30px;
+      padding: 30px;
+    
+    }
+    .input-texto{
+    margin-bottom: 10px;
+    }
+    
+    .inputGroup {
+      font-family: 'Poppins', sans-serif;
+      margin: 1em 0 1em 0;
+      max-width: 100vw;
+      position: relative;
+    }
+    .secao_contato_container h1{
+      color: white;
+      font-family: 'Poppins';
+      font-weight: 600;
+      text-align: center;
+    }
+    .inputGroup input {
+      font-size: 100%;
+      padding: 0.8em;
+      outline: none;
+      border: 2px solid black;
+      background-color: transparent;
+      border-radius: 20px;
+      width: 100%;
+    }
+    .inputGroup select {
+      font-size: 100%;
+      padding: 0.8em;
+      outline: none;
+      border: 2px solid black;
+      background-color: transparent;
+      border-radius: 20px;
+      width: 100%;
+    }
+    
+    .inputGroup label {
+      font-size: 100%;
+      position: absolute;
+      left: 0;
+      padding: 0.8em;
+      margin-left: 0.5em;
+      pointer-events: none;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      color: black;
+      font-weight: 300;
+    }
+    
+    .inputGroup :is(input:focus, input:valid)~label {
+      -webkit-transform: translateY(-50%) scale(.9);
+          -ms-transform: translateY(-50%) scale(.9);
+              transform: translateY(-50%) scale(.9);
+      margin: 0em;
+      margin-left: 1.3em;
+      padding: 0.4em;
+      padding-bottom: 2em;
+    }
+    
+    .inputGroup :is(input:focus, input:valid) {
+      border-color: black;
+      
+    }
+    .inputGroup :is(select:focus, select:valid) {
+      border-color: black;
+      
+    }
+    
+    .input-submit input{
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 1.2rem;
+      width: 100%;
+      background-color: #fc6435;
+      color: #fff;
+      border: 1px solid #fc6435;
+      border-radius: 100px;
+      padding: 0.5rem 2rem;
+    }
+    
+    .input-submit input:focus, .input-submit input:active {
+      box-shadow: 0 0 0 0.2rem rgba(235, 0, 69, .4);
+    }
+
